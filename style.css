@@ -164,3 +164,37 @@ header{
     font-weight: bold;
     transition: 2s ease-in-out;
 }
+#company-logo{
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+#company-logo img{
+    width: 200px;
+}
+footer{
+    background: var(--footerBg);
+    padding: 40px 0;
+     
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.footer-content .col{
+    flex: 1;
+    text-align: center;
+}
+.footer-content p , .footer-content h3, footer li{
+    color: whitesmoke;
+    
+}
+.copyright p{
+    text-align: center;
+    padding: 30px 10px ;
+    color: whitesmoke;
+    
+}
