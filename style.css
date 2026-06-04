@@ -71,11 +71,12 @@ header{
 .header-content .header-info{
     flex: 60%;
 }
-.header-info .line{
+ .line{
     background: var(--theme);
     width: 150px;
     height: 4px;
     border-radius: 5px;
+   
 }
 .header-info h1{
     font-size: 50px;
@@ -101,6 +102,41 @@ header{
 .category{
     text-align: center;
 }
+.category :hover{
+    transform: translate(10px, 10px);
+    transition: 1s ease-in-out;
+}
 .category img{
     height: 80%;
+}
+
+/* Featured-section */
+ #features-products{
+    margin: 80px auto;
+ }
+ .section-info{
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    justify-content: center;
+    align-items: center;
+ }
+ .product-info{
+    text-align: center;
+ }
+ .product-info h3{
+    font-size: 14px;
+ }
+ .product:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+    
+ 
+ }
+
+.products{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
