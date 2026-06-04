@@ -20,6 +20,7 @@
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#"><img src="./img/cart.png" alt=""></a></li>
             </ul>
+            <a href="#" class="menuBtn"><img src="./img/menu.png" alt=""></a>
         </nav>
         <div class="header-content">
             <div class="header-info">
@@ -110,7 +111,7 @@
         <img src="./img/offer.png" alt="">
         <div class="offer-content">
             <div class="line"></div>
-            <h1>Hurry Up! <br> DEal of the day</h1>
+            <h1>Hurry Up! <br> Deal of the day</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
             <div class="btn">Shop Now &#8594;</div>
         </div>
@@ -126,7 +127,7 @@
         <div  class="footer-content container">
             <div class="col">
                 <img src="./img/logoFooter.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, at!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, at! Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
             <div class="col">
                 <h3>Company</h3>
@@ -160,5 +161,13 @@
             <p>copyright aklima akter | Powered by Aklima Akter</p>
         </div>
        </footer>
+       <script>
+        const menuBtn = document.querySelector('.menuBtn')
+        const navlinks = document.querySelector('.navlinks')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('active')
+        })
+       </script>
 </body>
 </html>
